@@ -40,7 +40,9 @@ function addRow(colum_id, category) {
         a.innerHTML = ` ${item.name}`;
 
         a.href = item.url
-        if (!inIframe ()) {
+        if (inIframe ()) {
+            a.target = "_parent"
+        } else {
             a.target = "_blank";
         }
 
