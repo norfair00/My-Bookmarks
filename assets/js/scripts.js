@@ -40,7 +40,9 @@ function addRow(colum_id, category) {
         a.innerHTML = ` ${item.name}`;
 
         a.href = item.url
-        a.target = "_blank";
+        if (!inIframe ()) {
+            a.target = "_blank";
+        }
 
         img.src = `https://sexual-gray-swallow.faviconkit.com/${removeTrailingSlash(removeHttp(item.url))}/16`;
 
@@ -52,6 +54,14 @@ function addRow(colum_id, category) {
 
     const br = document.createElement("br");
     colum.appendChild(br);
+}
+
+function inIframe () {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true;
+    }
 }
 
 function removeHttp(url) {
