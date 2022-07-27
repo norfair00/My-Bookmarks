@@ -1,0 +1,94 @@
+{
+  "colum_one":  [
+    {
+      "title": "Hosting",
+      "items": [
+        {"name": "OVH Cloud", "url": "https://www.ovhcloud.com/"},
+        {"name": "Dyjix",     "url": "https://dyjix.eu/"},
+        {"name": "Otux",     "url": "https://otux.cloud/"},
+        {"name": "Scaleway", "url": "https://www.scaleway.com/"}
+      ]
+    },
+    {
+      "title": "Sysadmin Tools",
+      "items": [
+        {"name": "Cloudflare", "url": "https://dash.cloudflare.com/"}
+      ]
+    }
+  ],
+  "colum_two": [
+    {
+      "title": "Communication",
+      "items": [
+        {"name": "Discord",    "url": "https://discord.com/"},
+        {"name": "Telegram",   "url": "https://web.telegram.org/"},
+        {"name": "Steam Chat", "url": "https://steamcommunity.com/chat/"},
+        {"name": "Teams",      "url": "https://teams.microsoft.com/"},
+        {"name": "Zoom", "url": "https://zoom.us/"}
+      ]
+    },
+    {
+      "title": "Social",
+      "items": [
+        {"name": "Twitter",   "url": "https://twitter.com/"},
+        {"name": "Instagram", "url": "https://www.instagram.com/"},
+        {"name": "TikTok",    "url": "https://www.tiktok.com/"},
+        {"name": "Facebook",   "url": "https://www.facebook.com/"}
+      ]
+    },
+    {
+      "title": "Entertainment",
+      "items": [
+        {"name": "Twitch",      "url": "https://www.twitch.tv/"},
+        {"name": "YouTube",     "url": "https://www.youtube.com/"},
+        {"name": "Tellingtone", "url": "https://tellingtone.com/"},
+        {"name": "Spotify",     "url": "https://open.spotify.com/"},
+        {"name": "Netflix",     "url": "https://www.netflix.com/"},
+        {"name": "Prime Video", "url": "https://www.primevideo.com/"},
+        {"name": "Disney+",     "url": "https://www.disneyplus.com/"},
+        {"name": "Apple TV",    "url": "https://tv.apple.com/"},
+        {"name": "Canal+",      "url": "https://www.canalplus.com/"}
+      ]
+    },
+    {
+      "title": "Gaming",
+      "items": [
+        {"name": "GOG",             "url": "https://www.gog.com/"},
+        {"name": "Steam",           "url": "https://store.steampowered.com/"},
+        {"name": "Epic Games",      "url": "https://www.epicgames.com/"},
+        {"name": "Origin",          "url": "https://www.origin.com/"},
+        {"name": "Ubisoft Connect", "url": "https://ubisoftconnect.com/"}
+      ]
+    }
+  ],
+  "colum_three":  [
+    {
+      "title": "Dev",
+      "items": [
+        {"name": "DevDocs",     "url": "https://devdocs.io/"},
+        {"name": "CodePen",     "url": "https://codepen.io/"},
+        {"name": "JSFiddle",   "url": "https://jsfiddle.net/"},
+        {"name": "Pastebin",   "url": "https://pastebin.com/"},
+        {"name": "Gist",       "url": "https://gist.github.com/"},
+        {"name": "Excalidraw", "url": "https://excalidraw.com/"}
+      ]
+    },
+    {
+      "title": "Code Management",
+      "items": [
+        {"name": "GitHub",         "url": "https://github.com/"},
+        {"name": "GitLab",     "url": "https://gitlab.com/"}
+      ]
+    }
+  ],
+  "colum_four": [
+    {
+      "title": "Mics Tools",
+      "items": [
+        {"name": "Scribens",         "url": "https://www.scribens.fr/"},
+        {"name": "Convert Case",     "url": "https://convertcase.net/"},
+        {"name": "Google Translate", "url": "https://translate.google.fr/"}
+      ]
+    }
+  ]
+}
