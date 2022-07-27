@@ -24,7 +24,7 @@ fetch("/assets/js/bookmarks.json")
     //})
 });
 
-async function addRow(colum_id, category) {
+function addRow(colum_id, category) {
     let colum = document.getElementById(colum_id)
 
     const title = document.createElement("h3");
@@ -32,13 +32,12 @@ async function addRow(colum_id, category) {
 
     colum.appendChild(title);
 
-    category.items.forEach(async (item) => {
+    category.items.forEach(item => {
         const p = document.createElement("p");
         const a = document.createElement("a");
         const img = document.createElement("img");
 
         a.innerHTML = ` ${item.name}`;
-
 
         a.href = item.url
         a.target = "_blank";
@@ -46,6 +45,7 @@ async function addRow(colum_id, category) {
         img.src = `https://sexual-gray-swallow.faviconkit.com/${removeTrailingSlash(removeHttp(item.url))}/16`;
 
         a.prepend(img);
+
         p.appendChild(a);
         colum.appendChild(p);
     })
