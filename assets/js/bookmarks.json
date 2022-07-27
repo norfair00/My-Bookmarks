@@ -14,6 +14,12 @@
       "items": [
         {"name": "Cloudflare", "url": "https://dash.cloudflare.com/"}
       ]
+    },
+    {
+      "title": "Productivity",
+      "items": [
+        {"name": "1Password", "url": "https://1password.com/"}
+      ]
     }
   ],
   "colum_two": [
@@ -88,6 +94,21 @@
         {"name": "Scribens",         "url": "https://www.scribens.fr/"},
         {"name": "Convert Case",     "url": "https://convertcase.net/"},
         {"name": "Google Translate", "url": "https://translate.google.fr/"}
+      ]
+    },
+    {
+      "title": "Softwares",
+      "items": [
+        {"name": "TeamSpeak",    "url": "https://www.teamspeak.com/"},
+        {"name": "ShareX",       "url": "https://getsharex.com/"},
+        {"name": "JetBrains",    "url": "https://www.jetbrains.com/"},
+        {"name": "Sublime Text", "url": "https://www.sublimetext.com/"},
+        {"name": "Mailbird",     "url": "https://www.getmailbird.com/"},
+        {"name": "Everything",   "url": "https://www.voidtools.com/"},
+        {"name": "GIMP",         "url": "https://www.gimp.org/"},
+        {"name": "HeidiSQL",     "url": "https://www.heidisql.com/"},
+        {"name": "CrystalDisk",  "url": "https://crystalmark.info/"},
+        {"name": "MobaXterm",    "url": "https://mobaxterm.mobatek.net/"}
       ]
     }
   ]
